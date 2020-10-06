@@ -1,0 +1,8 @@
+To setup; choose a genesis file (rename this to genesis.json) and run go.sh. Note that pkey is a publicly available pkey used for testing purposes.
+
+At some point you want to generate a fork root of the chain. To start the miner, `geth attach --datadir=./net` and then `miner.start()`. 
+`miner.stop()` when the fork block has been reached.
+
+Now copy the ./net data to a root folder and now restart the mining until enough blocks are mined. Then stop the miner again.
+Now copy the ./net data folder to have a backup of the chain tip. Restore the previously copied root folder to ./net and redo this process.
+Now you have two chains, which should have different tips (their TD could be, depending on the genesis, be equal though). 

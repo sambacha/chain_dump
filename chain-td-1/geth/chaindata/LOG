@@ -1,0 +1,32 @@
+=============== Sep 25, 2020 (CEST) ===============
+19:26:31.773761 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:26:31.889139 db@open opening
+19:26:31.892204 version@stat F·[] S·0B[] Sc·[]
+19:26:31.978459 db@janitor F·2 G·0
+19:26:31.978662 db@open done T·89.352354ms
+19:26:32.001894 db@close closing
+19:26:32.002252 db@close done T·354.708µs
+=============== Sep 25, 2020 (CEST) ===============
+19:26:36.075642 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:26:36.076013 version@stat F·[] S·0B[] Sc·[]
+19:26:36.076102 db@open opening
+19:26:36.076249 journal@recovery F·1
+19:26:36.087623 journal@recovery recovering @1
+19:26:36.156932 memdb@flush created L0@2 N·15 S·986B "H4~..\x83\x0f\x99,v8":"\xf6\x1b\xc4..ا\x16,v5"
+19:26:36.169948 version@stat F·[1] S·986B[986B] Sc·[0.25]
+19:26:36.491160 db@janitor F·3 G·0
+19:26:36.491229 db@open done T·415.103012ms
+19:27:15.708320 db@close closing
+19:27:15.717665 db@close done T·9.338106ms
+=============== Sep 25, 2020 (CEST) ===============
+19:27:31.788198 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:27:31.788560 version@stat F·[1] S·986B[986B] Sc·[0.25]
+19:27:31.788615 db@open opening
+19:27:31.788750 journal@recovery F·1
+19:27:31.803206 journal@recovery recovering @3
+19:27:31.867038 memdb@flush created L0@5 N·25 S·1KiB "\aK\xf1..F\x83\xbc,v38":"\xdeXM..y'},v40"
+19:27:31.881962 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+19:27:32.101360 db@janitor F·4 G·0
+19:27:32.101416 db@open done T·312.780126ms
+19:28:43.514048 db@close closing
+19:28:43.514291 db@close done T·241.463µs
